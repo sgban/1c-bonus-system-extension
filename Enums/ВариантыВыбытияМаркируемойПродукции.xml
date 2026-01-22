@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="f4bfe6d4-e273-47c7-9403-ba8b0fe4f049">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыВыбытияМаркируемойПродукции" category="Ref">
+				<xr:TypeId>f944ec8b-1e4b-4921-9b2a-1988f5ec8669</xr:TypeId>
+				<xr:ValueId>f437c535-a5e7-4412-aada-931c237d3916</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыВыбытияМаркируемойПродукции" category="Manager">
+				<xr:TypeId>3e2d329e-8834-48ca-bb2c-1a3f99f870fc</xr:TypeId>
+				<xr:ValueId>572d034c-2e52-4e7a-b34f-0eab65bbaa8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыВыбытияМаркируемойПродукции" category="List">
+				<xr:TypeId>46ce1173-d092-4539-8f2d-e9ce5efba2e6</xr:TypeId>
+				<xr:ValueId>807704de-9b2f-4cd1-b2c1-90544f258637</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантыВыбытияМаркируемойПродукции</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>01b157d9-0897-49f2-a89b-c27365c56990</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="76e293dd-f2ae-411c-9b0a-c0f54c85c40b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользованиеПокупателемДляСобственныхНужд</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1f9b6892-b743-44eb-80c1-32334ddf8fc5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

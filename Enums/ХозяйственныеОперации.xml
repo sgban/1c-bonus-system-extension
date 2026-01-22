@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="6cf304c1-cf24-4b78-98f1-b650c0c0855b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ХозяйственныеОперации" category="Ref">
+				<xr:TypeId>c4e289b5-fdb0-4ac8-aaee-de8ae7f9984d</xr:TypeId>
+				<xr:ValueId>eb0b316b-c78e-4d81-8f81-d6e6e641fb1c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ХозяйственныеОперации" category="Manager">
+				<xr:TypeId>0bcaeb17-22e1-4b3d-9022-a379ca955e51</xr:TypeId>
+				<xr:ValueId>197fa506-b24d-4018-b16d-c44506155870</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ХозяйственныеОперации" category="List">
+				<xr:TypeId>49edd67c-9225-4a41-857c-1f5188dcfb3e</xr:TypeId>
+				<xr:ValueId>d295496b-6c48-4507-b52c-5791e66e275c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХозяйственныеОперации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>351b0c5b-74c3-4aaa-a93b-7246b941f797</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3470d10c-2b1e-4d49-8604-df2e6320ec10">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализацияЧерезКомиссионера</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8880d304-daf7-4345-ad8d-c81bc5d994b7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5843c422-c514-492f-b96a-0c46c03f9a41">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализацияКлиенту</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4dec627e-3939-4191-a213-0cea734fc86c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="54b6ac21-ad21-4554-9ff5-6687fa2b35b1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализацияЧерезКомиссионераБезПереходаПраваСобственности</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f24e8e16-21ad-4eeb-a73d-06152c4d9a1e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d65521a2-1afc-4048-995c-ae23113040d3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПередачаНаКомиссию</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a606d3e5-4a59-4b2c-9d3d-5976f5c778cf</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cfd801cf-3651-477f-b675-093010c6bda7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализацияКлиентуРеглУчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3299776f-a304-476e-a0d9-a9132b128869</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1d775498-8ba8-4fe5-bde0-2f8d91761264">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеализацияБезПереходаПраваСобственности</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0789d7c2-8020-4d52-a305-445f9faa9b76</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

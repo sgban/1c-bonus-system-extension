@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="f5f1444f-4f42-478d-b1b2-619cbb94a14a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыДоставки" category="Ref">
+				<xr:TypeId>8e19e743-73c4-4ba5-8e19-8b1c36986f02</xr:TypeId>
+				<xr:ValueId>d3c83d88-9488-461b-881b-798d12049d4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыДоставки" category="Manager">
+				<xr:TypeId>33c8bdce-5f1a-4577-abc1-3f8fed00424c</xr:TypeId>
+				<xr:ValueId>11ad6ce7-caa9-479f-b4f8-85d4d04e6099</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыДоставки" category="List">
+				<xr:TypeId>7957cfb2-e347-44a4-9a0d-d567453ad43b</xr:TypeId>
+				<xr:ValueId>cd3f11ef-4aef-4454-97a3-83387f19a6fc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыДоставки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e84f811f-b8c6-4c9c-9e98-f10ab90f1702</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e295a34b-d01d-4a46-a6ce-63c4f1803065">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Самовывоз</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f442a653-b32b-4be9-9b5e-4a5abb206d85</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cb5064b4-1cbf-412a-9335-eb68079a6eb3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоКлиента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3c09e30d-ef7d-4e10-9b7e-c3d470857e36</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="911d365f-b8ea-4b97-8114-b4f31fe03d03">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СиламиПеревозчикаПоАдресу</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>066e8fb0-3813-4481-b4bf-edfafab4aed9</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a77feffa-1de1-4127-b83d-4ab10aa76eaa">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СиламиПеревозчика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b983ffd7-6fee-4341-823c-bc970e783c64</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c25cee9a-7193-4078-8c20-244d078d0d0c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КПолучателюОпределяетСлужбаДоставки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c07693f6-6c15-46b9-8ea5-6560cf995152</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

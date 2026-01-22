@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link></head><body>
+<h2 data-start="89" data-end="138">Справка по обработке <code data-start="116" data-end="138">БонуснаяСистема</code></h2>
+<p data-start="140" data-end="346">Обработка предназначена для управления бонусной программой, включает начисление, списание и настройку правил расчёта бонусов. Взаимодействует с документами реализации, справочниками и регистрами накопления.</p>
+<h3 data-start="348" data-end="385">Форма <code data-start="361" data-end="385">ФормаНачисленияБонусов</code></h3>
+<p data-start="387" data-end="573"><strong data-start="387" data-end="402">Назначение:</strong><br data-start="402" data-end="405">
+Используется для начисления бонусов по документу. Вызывается из документа при нажатии кнопки <strong data-start="498" data-end="513">«Начислить»</strong>, если по документу ещё не производилось начисление бонусов.</p>
+<p data-start="575" data-end="599"><strong data-start="575" data-end="599">Основной функционал:</strong></p>
+<ul data-start="600" data-end="821"><li data-start="600" data-end="641">
+<p data-start="602" data-end="641">Отображение суммы бонусов к начислению.</p>
+</li>
+<li data-start="642" data-end="683">
+<p data-start="644" data-end="683">Подтверждение начисления через СМС-код.</p>
+</li>
+<li data-start="684" data-end="821">
+<p data-start="686" data-end="821">После подтверждения вызывается серверный метод <code data-start="733" data-end="750">НачислитьБонусы</code>, производящий движение <strong data-start="774" data-end="784">Приход</strong> в регистре <code data-start="796" data-end="820">БонусыПокупателей</code>.</p>
+</li>
+</ul><p data-start="823" data-end="839"><strong data-start="823" data-end="839">Особенности:</strong></p>
+<ul data-start="840" data-end="982"><li data-start="840" data-end="917">
+<p data-start="842" data-end="917">При успешном начислении форма закрывается с выводом сообщения пользователю.</p>
+</li>
+<li data-start="918" data-end="982">
+<p data-start="920" data-end="982">Повторное начисление по одному и тому же документу невозможно.</p>
+</li>
+</ul><hr data-start="984" data-end="987"></hr><h3 data-start="989" data-end="1024">Форма <code data-start="1002" data-end="1024">ФормаСписанияБонусов</code></h3>
+<p data-start="1026" data-end="1199"><strong data-start="1026" data-end="1041">Назначение:</strong><br data-start="1041" data-end="1044">
+Используется для списания бонусов при оформлении продажи. Вызывается из документа при нажатии кнопки <strong data-start="1145" data-end="1158">«Списать»</strong>, если по документу ещё не было списания.</p>
+<p data-start="1201" data-end="1225"><strong data-start="1201" data-end="1225">Основной функционал:</strong></p>
+<ul data-start="1226" data-end="1444"><li data-start="1226" data-end="1268">
+<p data-start="1228" data-end="1268">Ввод суммы бонусов, подлежащих списанию.</p>
+</li>
+<li data-start="1269" data-end="1308">
+<p data-start="1271" data-end="1308">Подтверждение списания через СМС-код.</p>
+</li>
+<li data-start="1309" data-end="1444">
+<p data-start="1311" data-end="1444">После подтверждения вызывается серверный метод <code data-start="1358" data-end="1373">СписатьБонусы</code>, производящий движение <strong data-start="1397" data-end="1407">Расход</strong> в регистре <code data-start="1419" data-end="1443">БонусыПокупателей</code>.</p>
+</li>
+</ul><p data-start="1446" data-end="1462"><strong data-start="1446" data-end="1462">Особенности:</strong></p>
+<ul data-start="1463" data-end="1635"><li data-start="1463" data-end="1577">
+<p data-start="1465" data-end="1577">В случае успешного списания формируется возврат результата, чтобы сумма скидки могла быть применена в документе.</p>
+</li>
+<li data-start="1578" data-end="1635">
+<p data-start="1580" data-end="1635">Повторное списание невозможно — предусмотрена проверка.</p>
+</li>
+</ul><hr data-start="1637" data-end="1640"></hr><h3 data-start="1642" data-end="1677">Форма <code data-start="1655" data-end="1677">ФормаНастроекБонусов</code></h3>
+<p data-start="1679" data-end="1804"><strong data-start="1679" data-end="1694">Назначение:</strong><br data-start="1694" data-end="1697">
+Предоставляет доступ к настройке правил расчёта бонусов и условий участия покупателей в бонусной программе.</p>
+<p data-start="1806" data-end="1830"><strong data-start="1806" data-end="1830">Основной функционал:</strong></p>
+<ul data-start="1831" data-end="2053"><li data-start="1831" data-end="1886">
+<p data-start="1833" data-end="1886">Управление видами цен, участвующих в расчёте бонусов.</p>
+</li>
+<li data-start="1887" data-end="1986">
+<p data-start="1889" data-end="1986">Задание индивидуальных настроек для покупателей.</p>
+</li>
+<li data-start="1987" data-end="2053">
+<p data-start="1989" data-end="2053">Возможность настройки коэффициентов.</p>
+</li>
+</ul><p data-start="2055" data-end="2071"><strong data-start="2055" data-end="2071">Особенности:</strong></p>
+<ul data-start="2072" data-end="2226"><li data-start="2072" data-end="2133">
+<p data-start="2074" data-end="2133">Открывается как независимая форма (не блокирует владельца).</p>
+</li>
+<li data-start="2134" data-end="2226">
+<p data-start="2136" data-end="2226">Используется для предварительной настройки перед запуском бонусной системы в эксплуатацию.</p></li></ul></body></html>

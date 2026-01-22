@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="73e856e3-0a70-4e4d-b11a-c91e2bfef691">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Партнеры" category="Object">
+				<xr:TypeId>d89f5623-79f4-481c-9979-a478d638b9ae</xr:TypeId>
+				<xr:ValueId>40328271-b9fc-40cd-b080-a465b5c8ff90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Партнеры" category="Ref">
+				<xr:TypeId>61c30bc7-7bb9-4e8c-a2e4-434afbf05187</xr:TypeId>
+				<xr:ValueId>906a7afb-22cc-4a72-9464-22f8915791c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Партнеры" category="Selection">
+				<xr:TypeId>c0e99d5d-0fd9-429d-a761-10fb98796f8d</xr:TypeId>
+				<xr:ValueId>56d257d0-3af1-4940-bd5e-e0112492a20b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Партнеры" category="List">
+				<xr:TypeId>d6da3d58-e0d7-4fc2-baa2-efb9a382d23a</xr:TypeId>
+				<xr:ValueId>8be0739d-e54c-49d1-af7c-c5a34000ddcb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Партнеры" category="Manager">
+				<xr:TypeId>52c05e6b-14d9-4133-b2ab-91f2380c1abf</xr:TypeId>
+				<xr:ValueId>3e990d7d-5a59-4620-b69d-f7c0d5a53136</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Партнеры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bf75bcc5-82ee-4bd0-89e1-420b42c99454</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="7ed18a06-86cf-4e56-9bf0-8ed288a78d81">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Партнеры.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>1479d581-5b11-4c8b-863a-979cfe28eae4</xr:TypeId>
+						<xr:ValueId>4893d6ee-79cd-445a-96a6-c2be25827f65</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Партнеры.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>13da690b-3dda-495e-889c-07bd586f5fe6</xr:TypeId>
+						<xr:ValueId>844b4ab7-e103-4aa8-8d21-d66ddc3cfbf6</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДополнительныеРеквизиты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4ab5533c-449f-4a1d-af28-3ced93327e26</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="1f8df41d-371d-4008-97a8-d5595fda8c5a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Свойство</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>9440a4fb-2b50-41d7-8021-72065d7db627</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="234d61fe-d8b9-41ab-ae16-554b82c4c769">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Значение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>d4e57453-9603-4e2d-93cf-24d068144f74</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.ДополнительныеРеквизитыИСведения</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
